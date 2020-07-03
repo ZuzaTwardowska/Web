@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-marinas</title>
+	<link rel="stylesheet"  type="text/css" href="/style.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>    
+
+        <script>
+         $(document).ready(function(){
+        $('#hamb').click(function(){
+        $('#menuwrapper').stop().slideToggle(300);
+        document.getElementById('mobiledrop').style.display="none";
+        });
+        });
+        </script>
+        <script>
+        $(document).ready(function(){
+        $('#arrowdown').click(function(){
+        $('#mobiledrop').stop().slideToggle(300);
+        });
+        });
+        </script>  
+
+</head>
+    
+<body>
+    
+    
+   <div id="wrapper"> 
+     
+       <div id="lang_wrapper">
+            <a href="/siec_komputerowa.html"><div class="lang">PL</div></a>
+            <div class="lang">EN</div>
+            <a href="/de/computernetz.html"><div class="lang">DE</div></a>
+       </div>
+       
+        <header>
+            
+           <a href="en_main.html"><img src="/img/logo.jpg" id="logo" alt="logo"/></a>
+            <button class="mobile_menu" id="hamb"><img class="mobile_menu" src="/img/baseline_menu_black_18dp.png"/></button>
+            <div id="menuwrapper" class="menuwrapper">
+            
+                <button id="arrowdown" class="menu1 dropdown" style="width:9.25vw;">About the system<span id="arrow"> &#x25BC;</span>
+                            <div id="mobiledrop" class="dropdown-content">
+                                <a href="what_is_e_marinas.html"><div class="drop">What is e-Marinas?</div></a>
+                                <a href="features_of_the_system.html"><div class="drop">Features of the system</div></a>
+                                <a href="idea.html"><div class="drop">An idea of<br>e-Marinas</div></a>
+                                <a href="system_requirements.html"><div class="drop">System requirements</div></a>
+                                <a href="fiscalization.html"><div class="drop">Fiscalization in the system</div></a>
+                                <a href="computer_network.html"><div class="drop last">System in computer network</div></a>
+                            </div>
+                    </button>
+                        <a href="about_company.html"><button class="menu1" style="width: 9.3vw;">About our company</button></a>
+                        <a href="software_and_hardware_service.html"><button class="menu1">Software and hardware<br>service</button></a>
+                        <a href="contact.html"><button class="menu1" style="width: 9vw;">Contact</button></a>
+           </div>
+    </header>
+    
+        <div class="page">
+            <h class="naglowek">System in computer network<br><br></h>
+                <p class="tekst">Using computer networks (local – LAN, WLAN, WAN – internet) the System 
+                                can work with unlimited number of computers.<br>It is possible to work with several computers
+                                within one  marina or use  the program in completely different places, such as an office far
+                                away from the marina or at home. Owners of several marinas can have direct insight into their
+                                marinas from their home or office.</p>
+                    <ul class=tekst>
+                                <li>Stand-Alone Version – working on one computer in a marina.</li>
+                                <li>Multi-User Version – computers connected by local network (LAN or WLAN) – this 
+                                    allows working on many computers in a marina.</li>
+                                <li>Multi-User Version – computers connected by internet - one computer in a marina 
+                                    that is connected to office or home computer via internet. Office computer has 
+                                    direct access to all of the data so user has full information about what is going on in marina.</li>
+                                <li>Multi-User Version – working with  several computers and the ability to connect office/home computer. 
+                                    Connection via local network (LAN) or internet.</li>
+                                <li>Multi-user  version  for several marinas – an office computer can be connected to one or two or more 
+                                    marinas and show on-line information from each of them, we  have also  developed summary reports that 
+                                    include several marinas. Reports are made  in one place (e.g. office) and can include berthage,  
+                                    carpark, media revenues from all marinas,  VAT records etc.</li>
+                    </ul> 
+                
+       </div>
+        
+    </div>
+    
+        <footer>
+            <p class="footer">
+                            <span class="footer dropfoot" style="position:relative; left:-14vw;">&#169; 2018 by Zuzanna Twardowska</span><span class="footer catchfoot" style="position:relative; left:-14vw;">zuzatwardowska@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="footer" style="position:relative; left:-4vw;">NIP: 725-169-49-14 &nbsp; REGON: 472044687</span> <span class="footer" style="position:relative; right:-14vw;">Bank: Volkswagen Bank Polska S.A. nr: 87 2130 0004 2001 0355 7600 0001</span>
+            </p>
+             <p class="footermobile">Bank: Volkswagen Bank Polska S.A. nr: 87 2130 0004 2001 0355 7600 0001<br>NIP: 725-169-49-14<br>REGON: 472044687<br><br>
+                            2018 by Zuzanna Twardowska<br>zuzatwardowska@gmail.com
+            </p>
+       </footer>
+    
+        
+</body>        
+    
+
+    
+</html>

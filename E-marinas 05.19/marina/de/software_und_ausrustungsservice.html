@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-marinas</title>
+	<link rel="stylesheet"  type="text/css" href="/style.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+        <script>
+         $(document).ready(function(){
+        $('#hamb').click(function(){
+        $('#menuwrapper').stop().slideToggle(300);
+        document.getElementById('mobiledrop').style.display="none";
+        });
+        });
+        </script>
+        <script>
+        $(document).ready(function(){
+        $('#arrowdown').click(function(){
+        $('#mobiledrop').stop().slideToggle(300);
+        });
+        });
+        </script>
+
+</head>
+    
+<body>
+   <div id="wrapper"> 
+      
+       <div id="lang_wrapper">
+            <a href="/serwis_oprogramowania_i_sprzetu.html"><div class="lang">PL</div></a>
+            <a href="/en/software_and_hardware_service.html"><div class="lang">EN</div></a>
+            <div class="lang">DE</div>
+       </div>
+       
+        <header>
+            
+            <a href="de_main.html"><img src="/img/logo.jpg" id="logo" alt="logo"/></a>
+            <button class="mobile_menu" id="hamb"><img class="mobile_menu" src="/img/baseline_menu_black_18dp.png"/></button>
+            <div id="menuwrapper" class="menuwrapper">
+            
+                <button id="arrowdown" class="menu1 dropdown" style="width:9.25vw;">Über das System<span id="arrow"> &#x25BC;</span>
+                            <div id="mobiledrop" class="dropdown-content">
+                                <a href="was_ist_e_marinas.html"><div class="drop">Was ist e-Marinas?</div></a>
+                                <a href="funktionen_des_systems.html"><div class="drop">Die Funktionen des Systems</div></a>
+                                <a href="wie_ist_das_system_enstanden.html"><div class="drop">Wie ist das System entstanden?</div></a>
+                                <a href="hardware_anforderungen.html"><div class="drop">Hardware-Anforderungen</div></a>
+                                <a href="fiskalanlagen.html"><div class="drop">Die Mitarbeit mit Fiskalanlagen</div></a>
+                                <a href="computernetz.html"><div class="drop last">Das System in der Computernetz</div></a>
+                            </div>
+                    </button>
+                        <a href="uber_bit_firma.html"><button class="menu1" style="width: 9.3vw;">Über BIT Firma</button></a>
+                        <a href="software_und_ausrustungsservice.html"><button class="menu1">Software- und<br>Ausrüstungsservice</button></a>
+                        <a href="kontaktdaten.html"><button class="menu1" style="width: 9vw;">Die Kontaktdaten</button></a>
+           </div>
+        </header>
+    
+        <div class="page">
+            <h class="naglowek">Software- und Ausrüstungsservice<br><br></h>
+                <p class="tekst">Die BIT Firma bietet das Computer- und Softwareservice: </p>
+                    <ul class="tekst" style="margin-left:3vw;">
+                            <li> zu Ihrer Verfügung stehen die Spezialisten durch 7 tage pro Woche, die Ihnen jeden Problem lösen helfen</li>
+                            <li>wir garantieren, dass bei Bedarf spätestens zu 2 Tage nach dem Ausfall trifft unserer Angestellte zum jeden Platz in Deutschland ein und beseitigt den Ausrüstungs- und Softwareausfall, die bei unserer Firma gekauft wurde</li>
+                            <li>wir garantieren die Ersatzausrüstung falls wenn die Reparatur unmöglich an Ort und Stelle zur reparieren ist</li>
+                            <li>wir bieten auch an, mit uns einen ständigen Vertrag zu unterschreiben und einen Fernservice der Software (mittels Internet)</li>
+                    </ul>
+                <p class="tekst" style="margin-top: -2vw;">Wir bieten Ihnen die Systeminstallierung, die der Zugang zur Ihren Computer in 5 Minuten nach der Information über         solch einer Notwendigkeit (Softwareausfall oder die Hilfenotwendigkeit mit dem Betriebssystem) unabhängig von der Entfernung ermöglicht.
+                    Das anbietende System besteht in direkter und schneller Computerverbindung mittels Internet und geeignete Software.</p>
+        </div>
+    
+     </div>
+        <footer>
+            <p class="footer">
+                            <span class="footer dropfoot" style="position:relative; left:-14vw;">&#169; 2018 by Zuzanna Twardowska</span><span class="footer catchfoot" style="position:relative; left:-14vw;">zuzatwardowska@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="footer" style="position:relative; left:-4vw;">NIP: 725-169-49-14 &nbsp; REGON: 472044687</span> <span class="footer" style="position:relative; right:-14vw;">Bank: Volkswagen Bank Polska S.A. nr: 87 2130 0004 2001 0355 7600 0001</span>
+            </p>
+             <p class="footermobile">Bank: Volkswagen Bank Polska S.A. nr: 87 2130 0004 2001 0355 7600 0001<br>NIP: 725-169-49-14<br>REGON: 472044687<br><br>
+                            2018 by Zuzanna Twardowska<br>zuzatwardowska@gmail.com
+            </p>
+       </footer>
+    
+       
+</body>        
+    
+
+    
+</html>

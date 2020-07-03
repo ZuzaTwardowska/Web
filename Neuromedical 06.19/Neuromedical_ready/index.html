@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Neuromedical</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+    <!----- Start Home Section-->
+    <div id="home">
+    
+        <!---Nav--->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    
+        <a class="navbar-brand" href="#home"><img src="img/neuromedical.png"></a>
+            <button id="hamb" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+            
+                <ul class="navbar-nav ml-auto not-mobile-nav">
+                    <li id="nhome" class="nav-item">
+                        <a class="nav-link">Home</a>
+                    </li>
+                    <li id="nintro" class="nav-item">
+                        <a class="nav-link">Introduction</a>
+                    </li>
+                    <li id="ntechnology" class="nav-item">
+                        <a class="nav-link">Technology</a>
+                    </li>
+                    <li id="nresearch" class="nav-item">
+                        <a class="nav-link">Research</a>
+                    </li>
+                    <li id="ncompany" class="nav-item">
+                        <a class="nav-link">Company</a>
+                    </li>
+                    <li id="npublications" class="nav-item">
+                        <a class="nav-link">Publications</a>
+                    </li>
+                    <li id="ncontact" class="nav-item">
+                        <a class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <!--MOBILE NAV-->
+                <ul class="navbar-nav ml-auto mobile-nav">
+                    <li class="nav-item">
+                        <a id="mhome" class="nav-link" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="mintro" class="nav-link" >Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="mtechnology" class="nav-link" >Technology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="mresearch" class="nav-link" >Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="mcompany" class="nav-link">Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="mpublications" class="nav-link">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="mcontact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>    
+        </nav>
+    <!----End of Nav--->    
+        
+    <!----Start Landing Page Section--->
+        <div class="landing">
+                <div class="home-wrap">
+                    <div class="home-inner"></div>
+                </div>
+        </div>
+        
+       <div class="caption first-text">
+            <h1>Welcome to Neuromedical</h1>
+           
+                <h3>It's easier to remember than you think</h3>
+           
+           <div id="arrow">
+               <i class="fa fa-angle-down ar1" aria-hidden="true"></i><br>
+               <i class="fa fa-angle-down ar2" aria-hidden="true"></i><br>
+               <i class="fa fa-angle-down ar3" aria-hidden="true"></i>
+           </div>
+    
+       </div> 
+    <!----End Landing Page Section --->    
+    </div>
+    <!---- End Home Section---->
+    
+    
+    <!----- Start introudaction Section-->
+    <div id="intro" class="offset">
+        
+    <div class="col-12 narrow text-left text-justify">
+        <h1 class="intro-h">Introducing VGuard®</h1>
+        <div class="heading-underline3"></div>
+        
+        <p class="lead intro-text">We present the first electrostimulating medical device targeting brain structures responsible for memory consolidation.
+            VGuard is the first non-invasive home use electronic device dedicated specially for patients suffering from Alzheimer's disease to boost memory and make their life easier.</p>
+    
+        <div class="container-fluid margin-left=0">
+            <div class="row">
+                <div class="col-md-12">                    
+                        <iframe src="https://www.youtube.com/embed/p4B51tkPly8"></iframe>                   
+                </div>
+            </div>
+        </div>
+        
+        <div class="photobox-mobile">
+
+		<img class="photo" src="img/img_1.JPG">
+
+		<img class="photo" src="img/img_2.JPG">
+
+		<img class="photo" src="img/img_3.JPG">
+        
+        </div>
+            
+        <div class="photobox">
+
+		<img class="photo" src="img/img_1.JPG" onclick="openModal(); currentSlide(1)">
+
+		<img class="photo" src="img/img_2.JPG" onclick="openModal(); currentSlide(2)">
+
+		<img class="photo" src="img/img_3.JPG" onclick="openModal(); currentSlide(3)">
+		
+		</div>
+        <div id="myModal" class="modal">
+	2<span class="close" onclick="closeModal()">&times;</span>
+
+			<div class="mySlides">
+				<div class="numbertext">1 / 3</div>
+				<img src="img/img_1.JPG" class="wide-photo">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">2 / 3</div>
+				<img src="img/img_2.JPG" class="wide-photo">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">3 / 3</div>
+				<img src="/img/img_3.JPG" class="wide-photo">
+            </div>
+
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+	</div>
+	</div>
+        
+    </div>
+    
+    <!---- End introudaction Section---->
+    
+    
+    
+    <!----- Start technology Section-->
+    <div id="technology" class="offset">
+    <!--- START JUMBOTRON --->
+        <div class="jumbotron">
+            <div class="narrow">
+                <div class="col-12 text-center">
+                    <h3 class="heading">Technology</h3>
+                    <div class="heading-underline5"></div>
+                </div>
+                
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="feature">
+                        
+                            <i class=" fa fa-users fa-4x" data-fa-transform="shrink-3 up-5"></i>
+                            <h3>For every patient</h3>
+                            <p>The VGuard device is dedicated for patients with mild cognitive impairment (MCI), specially for patients with Alzheimer’s disease or dementia above 60 years old. </p>
+                        
+                        </div>
+                    
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature">
+                        
+                            <i class=" fa fa-globe fa-4x" data-fa-transform="shrink-3 up-4.5"></i>
+                            <h3>Pioneers</h3>
+                            <p>VGuard device will be a pioneering solution on a global scale, introducing a new method of therapy delaying the development or reducing symptoms of the disease.</p>
+
+                        </div>
+                    
+                    </div>
+                
+                  <div class="col-md-4">
+                        <div class="feature">
+                        
+                            <i class=" fa fa-universal-access fa-4x" data-fa-transform="shrink-3 up-5"></i>
+                            <h3>Easy to use</h3>
+                            <p>VGuard consists of a headband with a built-in neurostimulator. The device will be working in wireless bluetooth connection to personal mobile devices, what gives great opportunity to monitor treatment compliance.</p>
+                        
+                        </div>
+                    
+                    </div>
+                </div>
+            
+            </div><!----end narrow--->
+        
+        </div><!--- end jumbotron---->
+
+    </div>
+    <!---- End technology Section---->
+    
+    
+    <!----- Start Research Section-->
+    <div id="research" class="offset">
+        <div class="fixed-background">
+            <div class="row dark text-center">
+                
+                <div class="col-12">
+                    <h3 class="heading">Research</h3>
+                    <div class="heading-underline"></div>
+                </div>
+                
+                <div class="col-md-4">
+                    <h3>About Alzheimer's disease</h3>
+                <div class="feature">
+                    <i class="fa fa-info fa-3x"></i>
+                </div> 
+                <p class="lead research-text">As Alzheimer's is a progressive neurological disease, symptoms worsen over time, but quality of life and expected lifetime after diagnosis may vary depending on may factors. Neurodegenerative changes in the brain begin years before any noticible symptoms of the Alzheimer's disease. First symptoms are often mistakenly attributed to aging or stress. Detailed neuropsychological tests may reveal mild cognitive impairment up to eight years before the patient meets clinical criteria for AD diagnosis. The most visible is the loss of fresh memory in the form of difficulties in recalling recently remembered facts and inability to memorize new information.</p>
+                    
+                </div>
+                
+                <div class="col-md-4">
+                    <h3>Short story</h3>
+                <div class="feature">
+                    <i class="fa fa-book fa-3x"></i>
+                </div> 
+                <p class="lead research-text">Already ancient Greeks and Romans associated aging with the deterioration of memory, but they did not know possible reasons. In 1906 the German psychiatrist, Dr. Alois Alzheimer for the first time described the case of a disease in woman who had died with undefined neurological symptoms including memory problems along with language impairment and unpredictable behavior. The brain autopsy showed extensive atrophy of the cortex (pathologically thin gray matter) and two types of abnormal deposits inside (now known as amyloid plaques) and between neurons (now called neurofibrillary tangles). Till today this neurodegenerative disease is carrying his name. </p> 
+                    
+                </div>
+                
+                <div class="col-md-4">
+                    <h3>Global disease</h3>
+                <div class="feature">
+                    <i class="fa fa-map fa-3x"></i>
+                </div> 
+                <p class="lead research-text">Statistics say that AD is the 6th leading cause of death in the USA. One out of ten elderly above 65 years old suffer from Alzheimer’s disease. 1 in 3 seniors dies with dementia. According to World Alzheimer Report 2018 50 million patients are living with dementia worlwide. As people live longer the number of seniors suffering from dementia is rising rapidly all over the world. By 2050, this population will triple. Currently there is no effective treatment of Alzheimer’s disease. Applied pharmacological therapies do not bring the expected result.  Ongoing research put an efford to find better treatment to delay progression of the disease.</p>    
+                </div>
+                
+         </div><!-- end row dark--->
+                   
+            
+            
+            <div class="fixed-wrap">
+                    <div class="fixed"></div>
+            </div>
+            
+            
+        </div><!----End fixed backgorund--->
+    
+    </div>
+    <!---- End Research Section---->
+    
+    
+    
+    <!----- Start Company Section-->
+    <div id="company" class="offset">
+    <!---Start Jumbotron--->
+    <div class="jumbotron">
+        
+            <div class="col-12">
+                    <h3 class="heading">Company</h3>
+                    <div class="heading-underline2"></div>
+               
+                    <p>The company was founded in 2014 by an international team of experts in the field of neurology, neurophysiology, psychiatry and medical engineering supported by experienced managers. For unique achievements project was recognised by European authorities and granted from European Union Funds.</p>
+                    
+            </div>
+        <div class="row">
+        
+            <div class="col-md-6 company">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <blockquote> 
+                            <i class="fas fa-circle"></i>
+                            Dr. Tamir Ben David – Main Project Engineer
+
+                            <p>  
+                                Dr Ben David brings over 18 years of top management experience in the medical devices development field and venture capital, including Orad, BioControl, BSP, OB-Tools, Virtual Ports and IHCV. Dr. Ben David filed more than 90 patent applications in the field of medical technologies. Dr. Ben David Holds a Ph.D. in Physics and an MBA from Tel Aviv University.
+                            </p>
+                            <hr class="company-hr">
+                            <cite>&#8212;PhD in Physics, MBA from Tel Aviv University</cite>
+                        </blockquote>
+                
+                
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+            <div class="col-md-6 company">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <blockquote> 
+                            <i class="fas fa-circle"></i>
+                            Dr. Adam Broncel – Medical Director
+
+                            <p>  
+                                Dr. Broncel graduated from Medical University of Lodz in Poland and postgraduated studies in Berkeley, CA, USA. Reveived PhD in the field of neurology. He is conducting international research projects in the field of experimental neuroscience. 
+                            </p>
+                            <hr class="company-hr">
+                            <cite>&#8212;PhD in medicine, Medical Doctor, Neurologist</cite>
+                        </blockquote>
+                
+                
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+            <div class="col-md-6 company">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <blockquote> 
+                            <i class="fas fa-circle"></i>
+                            Raanan Gefen – Project Engineer
+
+                            <p>
+                                Mr Gefen specializes in R&D management of ground breaking ventures over more than 30 years, 15 of which in the medical device arena. Raanan led the development of NanoRetina, miniature artificial retina prosthesis, among others. He is the inventor of more than 30 registered patents and many more patent applications in various medical disciplines.
+                            </p>
+                            <hr class="company-hr">
+                            <cite>&#8212;???????????????????</cite>
+                        </blockquote>
+                
+                
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+            <div class="col-md-6 company">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <blockquote> 
+                            <i class="fas fa-circle"></i>
+                            Agnieszka Jarecka - R&D Project Development Manager
+
+                            <p>
+                                MSc in the field of marketing and management. Ms. Jarecka has more than 10 years' experience in management of R&D international projects. Since 2015 has received and managed three R&D grants for life science projects.
+                            </p>
+                            <hr class="company-hr">
+                            <cite>&#8212;??????????????????</cite>
+                        </blockquote>
+                
+                
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+            <div class="col-md-6 company">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <blockquote> 
+                            <i class="fas fa-circle"></i>
+                            Dr. Kamila Kulbat – R&D Project Assistant
+
+                            <p>
+                                Dr Kulbat graduated from University of Lodz, Faculty of Biology and Environmental Protection and obtained PhD in the field of biotechnology from Lodz University of Technology (Poland). Dr Kulbat has experience in research work gained during internships at the University of Natural Resources and Life Sciences in Vienna (Austria) as well as at the Cyprus University of Technology. Author and co-author of several publications. 2 years of experience in R&D projects.
+                            </p>
+                            <hr class="company-hr">
+                            <cite>&#8212;PhD in biotechnology, Biologist</cite>
+                        </blockquote>
+                
+                
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+            <div class="col-md-6 company">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <blockquote> 
+                            <i class="fas fa-circle"></i>
+                            Dr. Paulina Kłos-Wojtczak – Neurophysiologist 
+
+                            <p>
+                                Neurobiologist and medical biotechnologist. Dr Kłos-Wojtczak has got experience in research work in the field of neurobiology, especially electrophysiology of brain. She had internships in Biomedicum Helsinki (Finland), pharmaceutical companies (Medana. S.A.) and attended prestigious science camps organized by FENS Organizations. Co-author of scientific, experimental papers. Dr Kłos-Wojtczak is a scientific journalist writing for several polish magazines.
+                            </p>
+                            <hr class="company-hr">
+                            <cite>&#8212;PhD in the field of neurobiology, Biologist</cite>
+                        </blockquote>
+                
+                
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+            <div class="col-md-6 company">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <blockquote> 
+                            <i class="fas fa-circle"></i>
+                            Wojciech Białecki – Project Engineer  
+
+                            <p>
+                                Graduated from Technical University of Lodz, Department of Bio............??????????????????
+                            </p>
+                            <hr class="company-hr">
+                            <cite>&#8212;Biomedical Engineer spec. medical electronics and textronics </cite>
+                        </blockquote>
+                
+                
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+            <div class="col-md-6 company">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <blockquote> 
+                            <i class="fas fa-circle"></i>
+                            Prof. Jan Konopacki – Neurophysiology Scientific Investigator  
+
+                            <p>
+                                Prof. Konopacki is an expert in neurophysiology in the Department of Neurobiology at University of Lodz. He also has served as a Neuroscience professor and visiting researcher at the University of Calgary, Canada. He is the author or co-author of over 190 publications. Researech topics include: neuroanatomical, neuro-electrophysiological and neuro-pharmacological substrate of brain oscillatory activity and neurodegenerative diseases. 
+                            </p>
+                            <hr class="company-hr">
+                            <cite>&#8212;Professor, PhD in the field of neurobiology</cite>
+                        </blockquote>
+                
+                
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+            <div class="col-md-6 company">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <blockquote> 
+                            <i class="fas fa-circle"></i>
+                            Prof. Piotr Gałecki – Main Clinical Investigator  
+
+                            <p>
+                                Psychiatrist, academic teacher and practitioner. Head of the Department of Adult Psychiatry, Medical University of Lodz. National consultant in the field of psychiatry. Author and co-author of over 300 publications, including combining of psychiatry and psychology. 
+                            </p>
+                            <hr class="company-hr">
+                            <cite>&#8212;Professor, PhD in medicine, Medical Doctor, Psychiatrist</cite>
+                        </blockquote>
+                
+                
+                    </div>
+                
+                </div>
+            
+            </div>
+                
+        </div><!---end row--->
+        
+    </div><!---End Jumbotron--->    
+    
+
+    </div>
+    <!---- End Company Section---->
+    
+    <!---- Start Publication Section---->
+    <div id="publications" class="offset">
+        
+        <div class="col-12 narrow text-left text-justify">
+            <h1>Publications</h1>
+            <div class="heading-underline4"></div>
+        
+            <ul class="publications">
+                <li class="publications">Broncel A., Bocian R., Kłos-Wojtczak P., Konopacki J. 2018. Medial septal cholinergic mediation of hippocampal theta rhythm induced by vagal nerve stimulation. Plos One. 5;13(11).</li>
+                <li class="publications">Broncel A., Bocian R., Kłos-Wojtczak P., Konopacki J. 2018. Some technical issues of vagal nerve stimulation. An approach using a hippocampal formation theta rhythm. Brain Res Bull. 140:402-410.</li>
+                <li class="publications">Broncel A., Bocian R., Kłos-Wojtczak P., Konopacki J. 2017. Vagus nerve stimulation produces a hippocampal formation theta rhythm in anesthetized rats. Brain Res. 1675:41-50.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!---- End Publication Section---->
+    
+    
+    <!----- Start Contact Section-->
+    <div id="contact" class="offset">
+        <footer>
+            <div class="unia-wrapper"><img id="unia" src="img/Unia.jpg"></div>
+            <div class="row justify-content-center">
+            
+                <div class="col-md-5 text-center">
+                    <img src="img/neuromedical.png">
+                    <p>Everything we are doing is to help people</p>
+                    <strong>Contact info</strong>
+                    <p>Neuromedical Sp. z o.o.<br>
+                    +48 <br>email@adress<br>Natolin 15 <br> 92-701 Łódź, Poland
+                    </p>
+            
+                </div>
+            
+                <hr class="socket">
+                    Made by Mateusz Broncel & Zuzanna Twardowska<br>
+                    Theme by Nuno
+            </div>
+        </footer>
+    
+    </div>
+    <!---- End ContactSection---->
+    
+    
+    
+
+<!--- Script Source Files -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="javascript.js"></script>
+<!--- End of Script Source Files -->
+
+</body>
+</html>

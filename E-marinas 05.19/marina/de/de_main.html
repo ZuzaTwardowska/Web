@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-marinas</title>
+	<link rel="stylesheet"  type="text/css" href="/style.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+        <script>
+         $(document).ready(function(){
+        $('#hamb').click(function(){
+        $('#menuwrapper').stop().slideToggle(300);
+        document.getElementById('mobiledrop').style.display="none";
+        });
+        });
+        </script>
+        <script>
+        $(document).ready(function(){
+        $('#arrowdown').click(function(){
+        $('#mobiledrop').stop().slideToggle(300);
+        });
+        });
+        </script>
+
+</head>
+
+<script>CookieAlert.init();</script>
+    <script>
+    $(document).ready(function(){   
+    setTimeout(function () {
+        $("#cookieConsent").fadeIn(200);
+     }, 500);
+    $("#closeCookieConsent, .cookieConsentOK").click(function() {
+        $("#cookieConsent").fadeOut(200);
+    }); 
+    }); </script>
+
+    <body>
+   <div id="wrapper"> 
+        <div id="cookieConsent">
+        <div id="closeCookieConsent">x</div>
+        This website is using cookies. <a href="http://www.allaboutcookies.org/cookies/" target="_blank">More info</a>. <a class="cookieConsentOK">That's Fine</a>
+        </div>
+       
+       <div id="lang_wrapper_main">
+           <a href="/index.html"><div class="lang">PL</div></a>
+           <a href="/en/en_main.html"><div class="lang">EN</div></a>
+           <div class="lang">DE</div>
+       </div>
+        
+       <header>
+            
+            <img src="/img/logo.jpg" id="logo_main" alt="logo"/>
+            <button class="mobile_menu" id="hamb"><img class="mobile_menu" src="/img/baseline_menu_black_18dp.png"/></button>
+            <div id="menuwrapper" class="menuwrapper">
+            
+                <button id="arrowdown" class="menu1 dropdown" style="width:9.25vw;">Über das System<span id="arrow"> &#x25BC;</span>
+                            <div id="mobiledrop" class="dropdown-content">
+                                <a href="was_ist_e_marinas.html"><div class="drop">Was ist e-Marinas?</div></a>
+                                <a href="funktionen_des_systems.html"><div class="drop">Die Funktionen des Systems</div></a>
+                                <a href="wie_ist_das_system_enstanden.html"><div class="drop">Wie ist das System entstanden?</div></a>
+                                <a href="hardware_anforderungen.html"><div class="drop">Hardware-Anforderungen</div></a>
+                                <a href="fiskalanlagen.html"><div class="drop">Die Mitarbeit mit Fiskalanlagen</div></a>
+                                <a href="computernetz.html"><div class="drop last">Das System in der Computernetz</div></a>
+                            </div>
+                    </button>
+                        <a href="uber_bit_firma.html"><button class="menu1" style="width: 9.3vw;">Über BIT Firma</button></a>
+                        <a href="software_und_ausrustungsservice.html"><button class="menu1">Software- und<br>Ausrüstungsservice</button></a>
+                        <a href="kontaktdaten.html"><button class="menu1" style="width: 9vw;">Die Kontaktdaten</button></a>
+           </div>
+        </header>
+    <div class="page">
+       </div>
+    
+    
+    </div>
+
+        <footer>
+            <p class="footer">
+                            <span class="footer dropfoot" style="position:relative; left:-14vw;">&#169; 2018 by Zuzanna Twardowska</span><span class="footer catchfoot" style="position:relative; left:-14vw;">zuzatwardowska@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="footer" style="position:relative; left:-4vw;">NIP: 725-169-49-14 &nbsp; REGON: 472044687</span> <span class="footer" style="position:relative; right:-14vw;">Bank: Volkswagen Bank Polska S.A. nr: 87 2130 0004 2001 0355 7600 0001</span>
+            </p>
+             <p class="footermobile">Bank: Volkswagen Bank Polska S.A. nr: 87 2130 0004 2001 0355 7600 0001<br>NIP: 725-169-49-14<br>REGON: 472044687<br><br>
+                            2018 by Zuzanna Twardowska<br>zuzatwardowska@gmail.com
+            </p>
+       </footer>
+    
+        
+</body>        
+    
+
+    
+</html>

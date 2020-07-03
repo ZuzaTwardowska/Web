@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.menuwrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    -webkit-box-shadow: 0px 14px 61px -16px rgba(0,0,0,0.3);
+    box-shadow: 0px 14px 61px -16px rgba(0,0,0,0.3);
+}
+
+h.header{
+    font-size: 5vh;
+    color:white;
+    display: inline-block;
+    float: left;
+    padding: 2vh 6vw;
+    cursor: default;
+}
+
+ul.menu{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin-right: 4vw;
+
+}
+
+li.menu{
+    float: left;
+    display: inline-block;
+    margin: 1vw 1vw;
+    color: white;
+
+}
+a{
+   text-decoration: none; 
+    color: white;
+}
+
+a:hover{
+    color:darkgrey;
+}
+a.now{
+    color:#f72222;
+}
+
+div.home{
+    padding: 20vh 5% 0 5%;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+p.home{
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 35%;
+    color: #444444;
+    font-size: 2.2vh;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+    
+}
+
+a.tenders, p.tenders{
+    color: darkslategray;
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2vh;
+    margin-left: 2vw;
+    width: 95%;
+}
+
+p.tenders{
+    margin-bottom: 3vh;
+    margin-top:0;
+}
+
+img.pdf_sign{
+    width: 2vw;
+    margin-top: 0.8vh;
+    display: inline;
+}
+
+
+p.contact1{
+    width: 40vw;
+    position: absolute;
+    right: 5vw;
+    top: 28vh;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    font-size: 1.6vw;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+p.contact2{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1vw;
+    font-weight: 600;
+    color: #373737;
+    width: 20vw;
+    margin-left:10vw;
+}
+
+iframe{
+    margin-top: 2vh;
+    margin-left: 3vw;
+    margin-bottom: 4vh;
+    height: 35vh;
+    width: 35vw;
+    -webkit-box-shadow: 10px 15px 24px 3px rgba(0,0,0,0.2);
+    box-shadow: 10px 15px 24px 3px rgba(0,0,0,0.2);
+}
+
+div.team1{
+    width: 35%;
+    display:inline-block;
+    margin-left: 10%;
+    margin-right: -0.1vw;
+    padding-right: 2.7%;
+    padding-left: 2%;
+    padding-bottom: 4vh;
+    font-size: 1.1vw;
+    border-bottom: 0.1vw lightgray solid;
+    border-right: 0.05vw lightgray solid;
+}
+
+div.team2{
+    width: 35%;
+    display:inline-block;
+    margin-right: 10%;
+    margin-left: -0.1vw;
+    padding-left: 2.7%;
+    padding-right: 2%;
+    padding-bottom: 4vh;
+    font-size: 1.1vw;
+    border-bottom: 0.1vw lightgray solid;
+    border-left: 0.05vw lightgray solid;
+}
+
+p.main_team{
+    font-weight: 600;
+}
+
+div.team_container{
+    margin-bottom: 5vh;
+}
+
+#lasty{
+    border-bottom: none;
+}
+.copyrights{
+    position: static;
+    padding-left: 1vw;
+    margin-top: -4vh;
+    display: block;
+}
+
+img.unia{
+    width: 35%;
+    height: auto;
+    margin-left: 32.5%;
+    margin-top: 2vh;
+}
+
+footer{
+    border-top: solid 0.2vh #373737;
+    width: 98%;
+    margin-left: 1%;
+}
+
+
+
+
+
+
+@media (max-width:767px){
+body{
+overflow-x: hidden;
+font-family: 'Lato', sans-serif;
+color: #505962;
+min-width: 100%;
+}
+
+.menuwrapper{
+position: fixed;
+top: 0;
+left: 0;
+    min-width: 100%;
+    height: auto;
+-webkit-box-shadow: 0px 14px 61px -16px rgba(0,0,0,0.3);
+box-shadow: 0px 14px 61px -16px rgba(0,0,0,0.3);
+}
+
+h.header{
+    font-size: 2.8vh;
+    width: 60%;
+    display: block;
+    float: center;
+    padding: 0;
+    cursor: none;
+    margin: 1vh 20%;
+}
+
+ul.menu{
+    display: block;
+    float: center;
+    width: 95%;
+    margin: 1vh 2.5%;
+    padding:0;
+
+}
+
+li.menu{
+    float: center;
+display: inline-block;
+    margin: 0vh 3vw;
+color: white;
+    font-size: 2.2vh;
+}
+    
+a{
+text-decoration: none; 
+color: white;
+}
+
+a:hover{
+    color:white;
+}
+
+div.home{
+    padding: 15vh 5% 0 5%;
+-ms-flex-item-align: center;
+align-self: center;
+}
+
+p.home{
+    display: block;
+padding-left: 5%;
+padding-right: 5%;
+    width: 90%;
+color: #444444;
+    font-size: 3vh;
+    padding-bottom: 5vh;
+    padding-top: 0;
+}
+
+a.tenders, p.tenders{
+color: darkslategray;
+text-decoration: underline;
+    cursor: none;
+display: inline-block;
+    font-size: 4vw;
+    margin-left: 0vw;
+width: 95%;
+}
+
+p.tenders{
+margin-bottom: 3vh;
+margin-top:0;
+}
+
+img.pdf_sign{
+    display: none;
+}
+
+p.contact1{
+    width: 90%;
+    position: static;
+    right: 0;
+    top: 0;
+    text-align: left;
+text-decoration: none;
+color: gray;
+    font-size: 4.5vw;
+font-weight: 400;
+font-family: 'Quicksand', sans-serif;
+}
+
+p.contact2{
+text-decoration: none;
+text-align: center;
+    font-size: 4vw;
+font-weight: 600;
+color: #373737;
+    width: 90vw;
+    margin-left:0vw;
+    margin-top: 8vh;
+    margin-bottom: 6vh;
+}
+
+iframe{
+margin-top: 2vh;
+    margin-left: 0vw;
+margin-bottom: 4vh;
+    height: 30vh;
+    width: 85vw;
+    -webkit-box-shadow: 10px 10px 15px 3px rgba(0,0,0,0.15);
+    box-shadow: 10px 10px 15px 3px rgba(0,0,0,0.15);
+}
+
+div.team1{
+    width: 95%;
+    display: block;
+    margin-left: 0;
+    margin-right: 0vw;
+    padding-right: 2.5%;
+    padding-left: 2.4%;
+    padding-bottom: 4vh;
+    font-size: 5vw;
+border-bottom: 0.1vw lightgray solid;
+    border-right: none;
+}
+
+div.team2{
+    width: 95%;
+    display: block;
+    margin-right: 0;
+    margin-left: -0vw;
+    padding-left: 2.4%;
+    padding-right: 2.5%;
+padding-bottom: 4vh;
+    font-size: 5vw;
+border-bottom: 0.1vw lightgray solid;
+    border-left: none;
+}
+
+#lasty{
+    border-bottom: 0.1vw lightgray solid;    
+}
+
+div.team_container{
+margin-bottom: 5vh;
+}
+
+.copyrights{
+    font-size: 2.8vw;
+    margin-top: 0;
+}
+
+img.unia{
+    width: 70%;
+height: auto;
+    margin-left: 15%;
+    margin-top: 1vh;
+}
+
+footer{
+    border-top: solid 0.1vh #373737;
+    width: 103%;
+    margin-left: -2.5vw;
+    overflow-x: hidden;
+}
+}

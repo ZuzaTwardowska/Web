@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-marinas</title>
+	<link rel="stylesheet"  type="text/css" href="/style.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+        <script>
+         $(document).ready(function(){
+        $('#hamb').click(function(){
+        $('#menuwrapper').stop().slideToggle(300);
+        document.getElementById('mobiledrop').style.display="none";
+        });
+        });
+        </script>
+        <script>
+        $(document).ready(function(){
+        $('#arrowdown').click(function(){
+        $('#mobiledrop').stop().slideToggle(300);
+        });
+        });
+        </script>
+
+</head>
+    
+<body>
+   <div id="wrapper"> 
+      
+       <div id="lang_wrapper">
+            <a href="/serwis_oprogramowania_i_sprzetu.html"><div class="lang">PL</div></a>
+            <div class="lang">EN</div>
+            <a href="/de/software_und_ausrustungsservice.html"><div class="lang">DE</div></a>
+       </div>
+       
+        <header>
+            
+            <a href="en_main.html"><img src="/img/logo.jpg" id="logo" alt="logo"/></a>
+            <button class="mobile_menu" id="hamb"><img class="mobile_menu" src="/img/baseline_menu_black_18dp.png"/></button>
+            <div id="menuwrapper" class="menuwrapper">
+            
+                <button id="arrowdown" class="menu1 dropdown" style="width:9.25vw;">About the system<span id="arrow"> &#x25BC;</span>
+                            <div id="mobiledrop" class="dropdown-content">
+                                <a href="what_is_e_marinas.html"><div class="drop">What is e-Marinas?</div></a>
+                                <a href="features_of_the_system.html"><div class="drop">Features of the system</div></a>
+                                <a href="idea.html"><div class="drop">An idea of<br>e-Marinas</div></a>
+                                <a href="system_requirements.html"><div class="drop">System requirements</div></a>
+                                <a href="fiscalization.html"><div class="drop">Fiscalization in the system</div></a>
+                                <a href="computer_network.html"><div class="drop last">System in computer network</div></a>
+                            </div>
+                    </button>
+                        <a href="about_company.html"><button class="menu1" style="width: 9.3vw;">About our company</button></a>
+                        <a href="software_and_hardware_service.html"><button class="menu1">Software and hardware<br>service</button></a>
+                        <a href="contact.html"><button class="menu1" style="width: 9vw;">Contact</button></a>
+           </div>
+    </header>
+    
+        <div class="page">
+            <h class="naglowek">Software and hardware service<br><br></h>
+                <p class="tekst">BIT Company provides Nationwide Service of hardware and software, including:</p>
+                    <ul class="tekst" style="margin-left:3vw;">
+                            <li>at your disposal are professional servicemen 7 days a week that can solve any problem</li>
+                            <li>we guarantee that, if needed, our employee will reach any place in the country at the latest of 2 pm the day after notification and solve the problem</li>
+                            <li>if problem cannot be solved at location, we provide backup hardware</li>
+                            <li>we suggest agreement on permanent cooperation and remote software service via internet</li>
+                    </ul>
+                <p class="tekst" style="margin-top: -2vw;">We offer installing software that allows access to your computer 5 minutes after the notification, no matter the distance. Offered software works through the internet in order to access computer remotely.</p>
+        </div>
+    
+     </div>
+        <footer>
+            <p class="footer">
+                            <span class="footer dropfoot" style="position:relative; left:-14vw;">&#169; 2018 by Zuzanna Twardowska</span><span class="footer catchfoot" style="position:relative; left:-14vw;">zuzatwardowska@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="footer" style="position:relative; left:-4vw;">NIP: 725-169-49-14 &nbsp; REGON: 472044687</span> <span class="footer" style="position:relative; right:-14vw;">Bank: Volkswagen Bank Polska S.A. nr: 87 2130 0004 2001 0355 7600 0001</span>
+            </p>
+             <p class="footermobile">Bank: Volkswagen Bank Polska S.A. nr: 87 2130 0004 2001 0355 7600 0001<br>NIP: 725-169-49-14<br>REGON: 472044687<br><br>
+                            2018 by Zuzanna Twardowska<br>zuzatwardowska@gmail.com
+            </p>
+       </footer>
+    
+       
+</body>        
+    
+
+    
+</html>

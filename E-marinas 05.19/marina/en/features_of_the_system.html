@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-marinas</title>
+	<link rel="stylesheet"  type="text/css" href="/style.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+
+        <script>
+         $(document).ready(function(){
+        $('#hamb').click(function(){
+        $('#menuwrapper').stop().slideToggle(300);
+        document.getElementById('mobiledrop').style.display="none";
+        });
+        });
+        </script>
+        <script>
+        $(document).ready(function(){
+        $('#arrowdown').click(function(){
+        $('#mobiledrop').stop().slideToggle(300);
+        });
+        });
+        </script>
+
+</head>
+    
+<body>
+   <div id="wrapper"> 
+      
+       <div id="lang_wrapper">
+            <a href="/mozliwosci_i_funkcje_systemu.html"><div class="lang">PL</div></a>
+            <div class="lang">EN</div>
+            <a href="/de/funktionen_des_systems.html"><div class="lang">DE</div></a>
+       </div>
+       
+        <header>
+            
+            <a  href="/main.html"><img src="/img/logo.jpg" id="logo" alt="logo"/></a>
+            <button class="mobile_menu" id="hamb"><img class="mobile_menu" src="/img/baseline_menu_black_18dp.png"/></button>
+            <div id="menuwrapper" class="menuwrapper">
+            
+                <button id="arrowdown" class="menu1 dropdown" style="width:9.25vw;">About the system<span id="arrow"> &#x25BC;</span>
+                            <div id="mobiledrop" class="dropdown-content">
+                                <a href="what_is_e_marinas.html"><div class="drop">What is e-Marinas?</div></a>
+                                <a href="features_of_the_system.html"><div class="drop">Features of the system</div></a>
+                                <a href="idea.html"><div class="drop">An idea of<br>e-Marinas</div></a>
+                                <a href="system_requirements.html"><div class="drop">System requirements</div></a>
+                                <a href="fiscalization.html"><div class="drop">Fiscalization in the system</div></a>
+                                <a href="computer_network.html"><div class="drop last">System in computer network</div></a>
+                            </div>
+                    </button>
+                        <a href="about_company.html"><button class="menu1" style="width: 9.3vw;">About our company</button></a>
+                        <a href="software_and_hardware_service.html"><button class="menu1">Software and hardware<br>service</button></a>
+                        <a href="contact.html"><button class="menu1" style="width: 9vw;">Contact</button></a>
+           </div>
+    </header>
+    
+       <iframe src="en_page_inside.html"></iframe>
+       <div id="inside">       <div class="page">
+            <h class="naglowek" id="zero">Features of the system<br><br></h>
+       
+            <p class="tekst nag">Record Management  of incoming and outgoing vessels – Port Book</p>
+                <ul class="tekst" style="margin-left:3vw;">
+                    <li>instant and full information about all yachts in port</li>
+                    <li>the system shows yachts with pending and overdue payments </li>
+                    <li>simple and easy searching options including yacht name, captain’s  name, dates etc.</li>
+                </ul>
+          
+       
+          <p class="tekst nag">Records can be kept in two ways:</p>
+                <ul class="tekst" style="margin-left:3vw;" >
+                    <li>On top of  saving basic information about incoming yacht (name, captain,  
+                        ship-owner, company, number of crew members, additional information etc.),  
+                        customer  can mark parking space where he wants his yacht to be berthed just 
+                        by clicking on appropriate space on the map provided. This way user obtains  
+                        graphic illustration of  yachts'  location in the port</li>
+                    <li>Record of incoming yachts can also be used to save necessary information about 
+                        each yacht without specifying  berthing place </li>
+                </ul>
+
+           <img src="/img/swinoujscie.jpg" alt="/swinoujście- mapa" id="mapa">
+           <p id="mapainfo">The system shows on-line number of vessels and their location  in the port.</p>
+           
+          <p class="tekst nag" id="plat">Payment Support</p>
+                <ul class="tekst" style="margin-left:3vw;">
+                    <li>berthage payment records  (cash receipts, proofs  of payment)</li>
+                    <li>payments records of additional services e.g. toilets, showers, yacht 
+                        slipping, carpark etc.   (cash receipts, proof of  payments)</li>
+                </ul>
+          
+          <p class="tekst nag" id="dep">Deposit  Support  (deposits of keys, access cards, electricity and water cards etc.)</p>
+                <ul class="tekst" style="margin-left:3vw;">
+                    <li>the system shows pending payments of each yacht</li>
+                    <li>the system provides information about number  and  amount  of current deposits</li>
+                    <li>deposit records in all currencies</li>
+                </ul>
+    
+          <p class="tekst nag" id="f">Invoices</p>
+                <ul class="tekst" style="margin-left:3vw;">
+                    <li>the system automatically prints  invoices upon  receipt of   payment for provided services</li>
+                    <li>the system prints  invoices for earlier provided services on basis of presented cash receipts. 
+                        In this case there is no need to re-enter data – all necessary information are already in the system</li>
+                    <li>the system prints  invoices for any services provided by the port</li>
+                    <li>invoices can be printed, saved on hard disc or automatically sent to client by e-mail</li>
+                </ul>
+    
+           <p class="tekst nag" id="rez">Residents Support</p>
+                <ul class="tekst" style="margin-left:3vw;">
+                    <li>making  contracts for residents</li>
+                    <li>the system monitors  termination of pending contracts</li>
+                    <li>automatic renewal of contracts</li>
+                    <li>drawing up  payment documents for berthage (cash receipts, invoices)</li>
+                    <li>the system reminds  about pending payments or next instalments</li>
+                    <li>automatically prints  invoices when next instalment is due to be paid</li>
+                    <li>automatically sends out  invoices by e-mail</li>
+                    <li>allocation of  berthing places in a marina (interactive map of port with free/occupied places)</li>
+                </ul>
+    
+          <p class="tekst nag" id="roz">Payment Settlements</p>
+                <ul class="tekst" style="margin-left:3vw;">
+                    <li>handling  of invoices with extended payment  date</li>
+                    <li>monitoring pending  payments</li>
+                    <li>informing  customers about pending  payments</li>
+                    <li>printing  payment reminders  or automatic sending them by e-mail to customers</li>
+                </ul>
+
+           <p class="tekst nag" id="rap">Reports</p>
+                <p class="tekst" > All reports can be generated for any period of time (monthly, quarterly, half-yearly, annual)  including among others:</p>
+                <ul class="tekst" style="margin-left:3vw;">
+                    <li>financial reports ( invoice and VAT registers)</li>
+                    <li>cash reports (cash in possession of each boson, taking amounts, revenues)</li>
+                    <li>register of cash  invoices</li>
+                    <li>register  of  extended payment date invoices </li>
+                    <li>register of invoices for each individual customer</li>
+                    <li>revenue reports for all  services provided in port</li>
+                    <li>statistics  reports</li>
+                    <li>all reports can be shown on computer screen, saved on hard disc  or automatically sent out by e-mail, for example to  the office</li>
+                </ul>
+          
+           <p class="tekst"><b>Global Reports</b> - "e-Marinas" is prepared to operate many marinas  connected by computer network. 
+                This feature will allow to generate reports  from all marinas working in the system in one place.
+                Without leaving the office the user can obtain information about number of yachts currently docking in every marina. The user can check current amount of takings in every marina as well as for each  bosun separately.<br><br></p>
+           <p class="tekst">Additionally the System generates <b>financial, accounting and statistics  reports</b>. As creators of  "e-Marinas" we will develop reporting               possibilities of our software and create additional reports suited  to individual needs of each of our customers.<br><br></p>
+           <p class="tekst" id="bd"><b>Database</b> – "e-Marinas" has been equipped with set of databases of countries, cities, streets, yacht types etc. This helps and speeds up       entering data as well as minimizes possibilities of  mistakes. These databases are being upgraded every day  which means they are well suited for the needs of            each marina.<br><br></p>
+            <p class="tekst">What's more, databases of customers, captains, yachts are also developed the same way, 
+                            which speeds up everyday work. For example drawing up  invoice for a customer that is already in 
+                            database requires only a couple of clicks, there is no need to enter all data every time. <br><br></p>
+
+       </div>
+    
+        <footer>
+             <p class="footermobile">Bank: Volkswagen Bank Polska S.A. nr: 87 2130 0004 2001 0355 7600 0001<br>NIP: 725-169-49-14<br>REGON: 472044687<br><br>
+                            2018 by Zuzanna Twardowska<br>zuzatwardowska@gmail.com
+            </p>
+        </footer>
+       </div>
+       </div>
+    
+
+       
+        
+</body>        
+
+    
+</html>

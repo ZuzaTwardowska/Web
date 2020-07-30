@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kinderbal</title>
+	<link rel="stylesheet" href="bubling.css">
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>-->
+    <script>CookieAlert.init();</script>
+    <script>
+    $(document).ready(function(){   
+    setTimeout(function () {
+        $("#cookieConsent").fadeIn(200);
+     }, 500);
+    $("#closeCookieConsent, .cookieConsentOK").click(function() {
+        $("#cookieConsent").fadeOut(200);
+    }); 
+    }); </script>
+    <script>
+    function slide() {
+    var elem = document.getElementById("shutter");   
+    var pos = 0;
+    setTimeout(rest,1800);
+    function rest(){
+        var id = setInterval(frame, 17);
+    }
+    function frame() {
+    if (pos == -100) {
+      clearInterval(id);
+    } else {
+      pos--; 
+      elem.style.top = pos + '%';  
+    }
+    }
+    }
+</script>
+</head>
+
+<body>
+       <div id="wrapper"> 
+           
+        <div id="cookieConsent">
+        <div id="closeCookieConsent">x</div>
+        This website is using cookies. <a href="http://www.allaboutcookies.org/cookies/" target="_blank">More info</a>. <a class="cookieConsentOK">That's Fine</a>
+        </div>
+           
+    <div id="shutter">
+       <img id="shutter_logo" src="img/logo.png">
+    </div>
+   <div id="wrapper">
+<div id="cover"></div>
+            <a href="index.html">
+                <div class="bubble logo">   
+                    <img id="logo" src="img/logo.png" alt="logo_kinderbal">
+            </div>
+        </a>
+        <a href="chlopcy.html">
+            <div class="bubble b1">
+                <div class="bubble_text1">Chłopcy</div>
+                <img class="bubble" src="img/ratownik_medyczny.png">
+            </div>
+        </a> 
+        <a href="dziewczynki.html">
+            <div class="bubble b2">
+                <div class="bubble_text1">Dziewczynki</div>
+                <img class="bubble" src="img/czarodziejka.png">
+            </div>
+        </a>
+
+        <a href="zwierzatka.html">
+            <div class="bubble b3">
+                <div class="bubble_text1">Zwierzątka</div>
+                <img class="bubble" src="img/tygrysek.png">
+                <img class="bubble">
+            </div>
+        </a>
+            
+        <a href="kapelusze.html">
+            <div class="bubble b4">
+                <div class="bubble_text1">Kapelusze</div>
+                <img class="bubble1" src="img/kapelusz_muszkietera.png">
+                <img class="bubble">
+            </div>
+        </a>
+         
+        <a href="kontakt.html">
+            <div class="bubble b5">
+                <div class="bubble_text2">Kontakt</div>
+                <img class="icon" src="img/email-edit-outline.png">
+            </div>
+        </a>
+        
+        <a href="o_nas.html">
+            <div class="bubble b6">
+                <div class="bubble_text2">O nas</div>
+                <img class="icon" src="img/icons8-businessman-90.png">
+            </div>
+        </a>
+    </div>
+       
+           <div id="index_copy"><a id="me" target="_blank" href="https://www.facebook.com/zuza.twardowska.1">&#169; 2020 by Zuzanna Twardowska</a>
+            <div id="index_icons8">Icons by <a target="_blank" href="https://icons8.com">Icons8</a></div>
+        </div>
+    
+    </div>
+</body>
+    <script>
+    slide();
+    </script>
+</html>

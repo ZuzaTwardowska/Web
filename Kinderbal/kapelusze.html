@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kinderbal</title>
+	<link rel="stylesheet" href="bubling.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+        <script>
+         $(document).ready(function(){
+        $('#hamb').click(function(){
+        $('#menu').stop().slideToggle(500);
+        });
+        });
+        </script>
+
+</head>
+
+<body>
+   <div id="wrapper1">
+       <button id="hamb"><img class="mobile_menu" src="img/baseline_menu_black_18dp.png"/></button>
+    <div id="menuwrapper">
+        
+        <a href="index.html"><img id="logo1" src="img/logo.png" alt="logo_kinderbal" href="bubling.html"></a>
+        <ul id="menu">
+            <a href="chlopcy.html"><li class="menu_element">Chłopcy</li></a>
+            <a href="dziewczynki.html"><li class="menu_element">Dziewczynki</li></a>
+            <a href="zwierzatka.html"><li class="menu_element">Zwierzątka</li> </a>
+            <a href="o_nas.html"><li class="menu_element">O nas</li></a>
+            <a href="kontakt.html"><li class="menu_element last">Kontakt</li></a>
+        </ul>
+    
+    </div>
+       <div class="gallery-section">
+           <div class="inner-width">
+               <h1>Kapelusze</h1>
+               <div class="border"></div>
+               <div class="gallery">
+                   
+                    <a href="img/kapelusze/kapelusz%20bond.jpg" class="image">
+                        <img src="img/kapelusze/kapelusz%20bond.jpg">
+                        <div class="text">Kapelusz Bonda</div>
+                    </a>
+
+                    <a href="img/kapelusze/kapelusz%20muszkietera.jpg" class="image">
+                        <img src="img/kapelusze/kapelusz%20muszkietera.jpg">
+                        <div class="text">Kapelusz muszkietera</div>
+                    </a>
+
+                    <a href="img/kapelusze/kapelusz%20piracki.jpg" class="image">
+                        <img src="img/kapelusze/kapelusz%20piracki.jpg">
+                        <div class="text">Kapelusz piracki</div>
+                    </a>
+
+                    <a href="img/kapelusze/czapka%20biedronka.jpg" class="image">
+                        <img src="img/kapelusze/czapka%20biedronka.jpg">
+                        <div class="text">Czapka biedronka</div>
+                    </a>
+
+                    <a href="img/kapelusze/czapka%20pszcz%C3%B3%C5%82ka.jpg" class="image">
+                        <img src="img/kapelusze/czapka%20pszcz%C3%B3%C5%82ka.jpg">
+                        <div class="text">Czapka pszczółka</div>
+                    </a>
+
+
+
+               </div>
+           </div>
+       </div>
+    
+    <div class="border bfoot"></div> 
+    <footer>
+        <p class="footer">Stroje zamieszczone na stronie stanowią jedynie część naszej oferty. W celu uzyskania pełnej oferty proszę o kontakt droga mailową.</p>
+        <p class="oferta">Powyższa oferta ma charakter informacyjny i nie stanowi oferty handlowej w rozumieniu art. 66 §1 Kodeksu Cywilnego.</p>
+        <p class="copy"><a id="me" target="_blank" href="https://www.facebook.com/zuza.twardowska.1">&#169; 2020 by Zuzanna Twardowska</a></p>   
+        <div id="icons8">Icons by <a target="_blank" href="https://icons8.com">Icons8</a></div>
+    </footer>
+    
+    </div>
+    
+<script>
+    $(".gallery").magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery:{
+            enabled: true
+        }
+    });
+</script>
+</body>
+</html>

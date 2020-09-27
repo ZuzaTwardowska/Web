@@ -219,6 +219,8 @@ img.bubble1{
     text-align: center;
     top: 3.2vw;
     left: 4vw;
+    font-weight: 400;
+    margin:0;
 }
 
 .bubble_text1{
@@ -228,6 +230,8 @@ img.bubble1{
     text-align: center;
     top: 1.8vw;
     left: 5vw; 
+    font-weight: 400;
+    margin:0;
 }
 
 img.icon{

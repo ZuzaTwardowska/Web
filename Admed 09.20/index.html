@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Admed poradnia | Łódź</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta author="Zuzanna Twardowska">
+    <meta name="Description" content="Profesjonalne leczenie psychiatryczne i psychologiczne w przyjaznej atmosferze. Doświadczeni lekarze zadbają nie tylko o Twoje zdrowie, ale i o samopoczucie.">
+    <meta name="Keywords" content="psycholog, psychiatra, terapeuta, terapia, poradnia, depresja, uzależnienia, terapia dla par, zabużenia, choroba, psychoza">
+    <script>
+        function slide(n){
+            var slides = document.getElementsByClassName("slide");
+            var dots = document.getElementsByClassName("dot");
+            var i = n;
+            slides[i].style.display = "block";
+            dots[i].className += " active";
+
+            basint = setInterval(nextSlide,4000);
+
+            function nextSlide(){
+            slides[i].style.display = "none";
+            dots[i].className = dots[i].className.replace(" active", "");
+            i = (i + 1) % slides.length;
+            slides[i].style.display = "block";
+            dots[i].className += " active";
+            }
+        }
+        function show(n){
+            clearInterval(basint);
+            var slides = document.getElementsByClassName("slide");
+            var dots = document.getElementsByClassName("dot");
+            for(var i = 0; i < slides.length; i++)
+                {
+                    if(i==n) continue;
+                    slides[i].style.display = "none";
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+            slide(n);
+        }
+        function openMenu() {
+            document.getElementById("menu").style.width = "100%";
+        }
+        function closeMenu() {
+            document.getElementById("menu").style.width = "0%";
+        }
+        function visible(){
+            document.getElementById("visible").style.display = "block";
+        }
+        function notvisible(){
+            document.getElementById("visible").style.display = "none";
+        }
+    </script>
+</head>
+
+<body>
+    <div id="visible">
+    <h1>Poradnia psychologiczno-psychiatryczna AD MED</h1>
+        <p>Naszą poradnię cechuje wyjątkowe podejście do chorego. Nasi terapeuci, psycholodzy i psychiatrzy zadbają nie tylko o Twoje zdrowie, ale także o
+        Twoje samopoczucie. Oferujemy liczne terapie, m. in. terapie dla par, terapie uzależnień czy terapię dla osób, które nie radzą sobie z emocjami. Ponadto zajmujemy się leczeniem licznych chorób, takich jak psychozy, depresja, zaburzenia lękowe, zaburzenia snu i wiele innych.<br>
+        Zapoznaj się z naszą ofertą i umów na wizytę już dziś!</p>
+    </div>
+    <div id="menuwrapper">
+        <a href="index.html"><img id="logo" src="img/logo.png" alt="logo"></a>
+        <img id="open_menu" onclick="openMenu()" src="img/menu-white-18dp.svg" alt="menu">
+        <ul id="menu">
+            <img id="close_menu" onclick="closeMenu()" src="img/clear-white-18dp.svg" alt="close menu">
+            <a href="o-poradni.html"><li class="menu_element">O poradni</li></a>
+            <a href="poznaj-nas.html"><li class="menu_element">Poznaj nas</li></a>
+            <a href="uslugi.html"><li class="menu_element">Nasze Usługi</li></a>
+            <a href="kontakt.html"><li class="menu_element">Kontakt</li></a>
+            <div id="social">
+                <a href="https://www.facebook.com/AD-MED-Poradnia-%C5%81%C3%B3d%C5%BA-102525028237489" target="_blank"rel="noopener"><img src="img/f_logo_RGB-White_144.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/admed_poradnia/" target="_blank"rel="noopener"><img src="img/glyph-logo_May2016.png" alt="instagram"></a>
+            </div>
+        </ul>
+    </div>    
+
+    <div class="gallery">
+      <div class="slide">
+        <img src="img/8.jpg" alt="Poradnia psychologiczno psychiatryczna">
+        <div class="cover"> 
+            <p>Jesteśmy dla Was!<br>Dowiedz się więcej o naszej poradni. </p>
+            <a href="o-poradni.html"><button type="button"><span>O poradni</span></button></a>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="img/2.jpg" alt="Poradnia psychologiczno psychiatryczna">
+        <div class="cover">
+            <p>Poznaj nasz zespół. </p>
+            <a href="poznaj-nas.html"><button type="button"><span>Poznaj nas</span></button></a>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="img/10.jpg" alt="Poradnia psychologiczno psychiatryczna">
+        <div class="cover">
+            <p>Zobacz naszą ofertę.</p>
+            <a href="uslugi.html"><button type="button"><span>Nasze usługi</span></button></a>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="img/11.jpg" alt="Poradnia psychologiczno psychiatryczna">
+        <div class="cover">
+            <p>Umów się na wizytę już dziś!</p>
+            <a href="kontakt.html"><button type="button"><span>Kontakt</span></button></a>
+        </div>
+      </div>
+
+        <div class="dots">
+            <span class="dot" onclick="show(0)"></span>
+            <span class="dot" onclick="show(1)"></span>
+            <span class="dot" onclick="show(2)"></span>
+            <span class="dot" onclick="show(3)"></span>
+        </div>
+    </div>
+    
+    <footer class="indfoot">
+        <div id="copy"><a target="_blank" rel="noopener" href="https://www.facebook.com/zuza.twardowska.1">&#169; 2020 by Zuzanna Twardowska</a><br>
+        Zdjęcia Sylwester Kowalski</div>
+        <div class="proms">
+            <img src="img/logo_FE_rgb-5.jpg" alt="fundusze_europejskie">
+            <img src="img/logoZUS.png" alt="zus">
+            <img src="img/urzadpracy.png" alt="urząd_pracy">
+            <img src="img/logo_promuje_lodzkie.png" alt="promuje_łódzkie">
+            <img src="img/logo_UE_rgb-3.jpg" alt="unia_europejska">
+            <img src="img/logo_felmed.png"alt ="Felmed">
+        </div>
+        <div class="foot-contact"><p>Ad Med Poradnia<br>Al. 1 Maja 31/33<br>90-739 Łódź</p></div>
+        <img class="visibility" onmouseout="notvisible()" onmouseover="visible()" src="img/visibility-white-18dp.svg" alt="visibility">
+    </footer>
+</body>
+</html>
+<script>slide(0);</script>

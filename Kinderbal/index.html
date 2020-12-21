@@ -35,6 +35,12 @@
     }
     }
     }
+    function visible(){
+    document.getElementById("visible").style.display = "block";
+    }
+    function notvisible(){
+    document.getElementById("visible").style.display = "none";
+    }
 </script>
 </head>
 
@@ -100,10 +106,18 @@
         </a>
     </div>
        
-           <div id="index_copy"><a id="me" target="_blank" href="https://www.facebook.com/zuza.twardowska.1">&#169; 2020 by Zuzanna Twardowska</a>
+        <div id="index_copy"><a id="me" target="_blank" href="https://www.facebook.com/zuza.twardowska.1">&#169; 2020 by Zuzanna Twardowska</a>
             <div id="index_icons8">Icons by <a target="_blank" href="https://icons8.com">Icons8</a></div>
         </div>
-    
+    <div id="visibility"><img  onmouseout="notvisible()" onmouseover="visible()" src="img/baseline_visibility_black_18dp.png" alt="visibility"></div>
+    <div id="visible">
+    <h2>Kinderbal - stroje karnawałowe dla dzieci</h2>
+    <p>Nasza firma od 2004 roku zajmuje się importem oraz sprzedażą świetnej jakości strojów karnawałowych dla dzieci. Nasza baza 
+        klientów opiera się na współpracy z licznymi sklepami, hurtowniami oraz wypożyczalniami strojów karnawałowych. W naszej
+        ofercie znajduja się kostiumy dla chłopców i dziewczynek, a także nakrycia głowy.<br><br> Wszystkie stroje sprzedawane są
+        na wieszakach, w zamykanych na zamek workach foliowych. Do strojów dołączone są nakrycia głowy i drobne akcesoria wymienione na etykietach.</p>
+    </div>
+           
     </div>
 </body>
     <script>
